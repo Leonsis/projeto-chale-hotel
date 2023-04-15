@@ -1,0 +1,198 @@
+/** INICIO Geral **/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: helvetica, "Trebuchet MS", sans-serif;
+    background: #fff url(../imagens/bg.png);
+    margin: 15px;
+}
+
+#conteiner {
+    margin: 0 30px;
+    margin: 0 auto;
+    min-width: 740px;
+    max-width: 1200px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+/** FIM Geral **/
+/** INICIO Topo **/
+#topo {
+    position: relative;
+    background: #dbcd87;
+    height: 15.4em;
+    min-height: 250px;   
+}
+
+.logo {
+    height: 250px;
+    background: url(../imagens/topo-imagem-principal.png)no-repeat;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.logo a{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 3;
+    width: 151px;
+    height: 66px;
+    background: url(../imagens/logo.png);
+    text-indent: -3000px;
+}
+
+.menu {
+    background: url(../imagens/topo-imagem-lateral.png) no-repeat;
+    height: 250px;   
+    width: 460px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 2;
+}
+
+.conteudo-menu {
+    margin-left: 90px;
+    padding-top: 15px;
+    margin-right: 5px;
+}
+
+.menu-locais {
+    border-top: 1px solid #b5ab56;
+    border-bottom: 1px solid #b5ab56;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 0.8em;
+    color: #8b8448;
+}
+
+.menu-locais .locais {
+    line-height: 2.1em;
+    float: left;
+}
+
+a.reserva {
+    text-transform: uppercase;
+    background: #a29750;
+    color: #fff5b0;
+    padding: 5px 10px;
+    float: right;
+}
+
+.menu-navegacao {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.menu-navegacao ul {
+    width: 100px;
+    float: left;
+}
+
+.menu-navegacao li {
+    padding: 7px;
+}
+
+.menu-navegacao h2 {
+    background: url(../imagens/depoimento.png) no-repeat;
+    width: 200px;
+    height: 180px;
+    float: right;
+    text-indent: -5000px;
+}
+
+.menu-navegacao ul a {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    padding: 5px;
+    color: #6e672c;
+    line-height: 10px;
+}
+
+.menu-navegacao ul a:hover {
+    background: #fdf6be;
+}
+/** FIM topo **/
+/** INICIO conteudo **/
+#conteudo {
+    margin-top: 5px;
+    background: url(../imagens/bg-rodape.png) repeat-x top;
+    background: #ede9cc url(../imagens/bg-container.png) top center repeat-y;
+}
+
+.conteudo-texto {
+    float: left;
+}
+
+.conteudo-menulateral {
+    float: right;
+}
+
+.conteudo-texto, 
+.conteudo-menulateral {
+    box-sizing: border-box;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.conteudo-texto h2 {
+    font-size: 1.2em;
+    margin: 5px 0;
+    color: #8b8448;
+}
+
+.conteudo-texto p {
+    margin: 10px 0;
+}
+
+.conteudo-menulateral li {
+    border: 1px solid red;
+    padding: 8px;
+    border: 1px solid #f3efcb;
+    height: 6em;
+}
+
+.conteudo-menulateral a p{
+    font-size: 0.8em;
+    color: #000;
+}
+
+.conteudo-menulateral a h3{
+    font-size: 1em;
+    color: #615b2d;
+    padding: 5px 0;
+    background: url(../imagens/ornamento.png) no-repeat center right;
+}
+
+.conteudo-menulateral a .imagem {
+    float: left;
+    margin-right: 8px;
+}
+
+.conteudo-menulateral li:hover {
+    background: #f6f3d6;
+    cursor: pointer;
+}
+/** FIM conteudo **/
+/** INICIO rodape **/
+#rodape {
+    padding: 16px;
+    background: url(../imagens/bg-rodape.png) repeat-x top;
+    background-color: #fff;
+}
+/** FIM rodape **/
